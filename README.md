@@ -43,3 +43,6 @@ For each test case:
 
 ---
 
+This program finds the minimum cost to build a sequence of values from 1 to K in an array A by selecting increasing numbers at positions that are as close together as possible. The cost is measured by the total distance between these positions. It uses dynamic programming to compute, for each position of number i, the minimum cost to reach any valid position of number i+1.
+
+Starting from the end of the sequence (K), it works backward to calculate the cost to build the sequence from each possible starting point of 1. For every index in the array, it checks if it's possible to start the sequence there and, if so, prints the minimum cost to complete the sequence from that index using precomputed values.
