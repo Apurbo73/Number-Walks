@@ -13,4 +13,3 @@ This C++ program processes multiple test cases to compute **the minimum total co
 
 ---
 
-Let me know if you'd like a [step-by-step example](f), [visual diagram](f), or [simplified pseudocode](f) for better clarity.
