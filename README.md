@@ -13,3 +13,34 @@ This C++ program processes multiple test cases to compute **the minimum total co
 
 ---
 
+Here’s an even more simplified version of the pseudocode, focusing just on the main logic:
+
+---
+
+```pseudocode
+For each test case:
+    Read N, K
+    Read array A of size N
+
+    For each number 1 to K:
+        Save all positions of that number in pos[number]
+
+    Initialize dp[K] = 0 for each position in pos[K]
+
+    For i from K-1 down to 1:
+        For each position x in pos[i]:
+            Find nearest positions y in pos[i+1]
+            dp[i][x] = min(abs(x - y) + dp[i+1][y])  for closest y values
+
+    For each index s in 0 to N-1:
+        If A[s] == 1:
+            Use closest position in pos[1] to s
+            ans = abs(s - x) + dp[1][x]
+        Else:
+            ans = 0
+        Print ans
+```
+
+---
+
+Let me know if you'd like a [visual flowchart](f) or [example walkthrough](f) to go with this.
