@@ -17,7 +17,7 @@ Here’s an even more simplified version of the pseudocode, focusing just on the
 
 ---
 
-```pseudocode
+### Pseudocode
 For each test case:
     Read N, K
     Read array A of size N
