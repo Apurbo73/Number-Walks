@@ -1,4 +1,4 @@
-### Number Walks
+### Number Walks:
 
 This C++ program processes multiple test cases to compute **the minimum total cost to build a sequence of numbers from 1 to K** using a given array `A` of length `N`. The sequence must be built by picking positions in the array where the values appear in increasing order (`1 → 2 → ... → K`), and the cost is defined by the total absolute distance between adjacent numbers' positions in the array.
 
