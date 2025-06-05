@@ -43,4 +43,3 @@ For each test case:
 
 ---
 
-Let me know if you'd like a [visual flowchart](f) or [example walkthrough](f) to go with this.
